@@ -1,0 +1,34 @@
+div{
+        border: 1px solid salmon;
+    }
+
+
+a {
+    color: red;
+}
+
+div a{
+    color: green;
+}
+
+#exec-bio{
+    background-color: lightgray;
+}
+
+.#bio-box{
+    border: 1px solid aquamarine;
+}
+
+.#bio-box a{
+    color: lightcoral;
+}
+
+#Link-color {
+    background-color: steelblue;
+}
+
+.box {
+    background-color: violet
+}
+
+/* a tag를 잡아서 아무 id를 주고 id로 select 하여 배경색 오렌지를 주세요 */

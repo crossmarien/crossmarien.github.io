@@ -52,7 +52,7 @@ int
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmjjuE8XJ6c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<table>
+<!-- <table>
     <thead>
         가사모음 
     </thead>
@@ -78,7 +78,7 @@ int
     <td>하얗게 빛나는 기억들이</td>
     <td>다시 또한번 내게온다</td>
 </tr>
-</table>
+</table> -->
 
 </section>
 
@@ -121,5 +121,84 @@ int
     <td rowspan=2>"2"</td>
 </tr>
 </table>
+
+<h3>Form</h3>
+<p>주문서를 작성해 주세요.</p>
+<form action="">
+    <div>
+    이름: <input name = "name" type="text" placeholder="이름"> 
+    </div>
+    <div>
+    나이: <input name="age" type="text" placeholder="만으로 세시면 안됩니다">
+    </div>
+    <div >
+    전화번호: <input name="number" type="text"placeholder="010-0000-0000">
+    </div>
+    <div>
+    이메일: <input name="email" type="email" placeholder="crossmarien@naver.com">
+    </div>
+    <div id="자기소개">
+    자기소개 : <textarea></textarea>
+    </div>
+    <div>
+        <input type="submit" value="입력">
+    </div>
+    <br>
+
+    <h2>주문서</h2>
+    <form action="">
+        <div>
+            <input type="text" name="name" placeholder="홍길동"/>이름</div>
+        
+        <div>
+            <input type="date" name="date"/>날짜
+        </div>
+        <div>
+            <p><strong>1.샌드위치 선택</strong></p>
+        <!-- radio -->
+            <input type="radio" name="sandwich" value="1"/> 스테이크
+            <input type="radio" name="sandwich" value="2"/> 아보카도
+            <input type="radio" name="sandwich" value="3"/> 닭고기
+      
+<!-- number -->
+            <p><em>스테이끼 시키면 쥬금!</em></p>
+            
+            <div id=size>
+                <p> <strong>2.사이즈</strong> </p>
+                <input type="number" name="size" min="15" max="30" step="15" value="15"/> 1,2,3
+            </div>
+<!-- option -->
+            <div>
+                <p><strong>3.빵 종류</strong></p>
+                <select name="bread">
+                <option value ="1">허니오트 </option>
+                <option value ="2">플랫브레드</option>
+                <option value="3" > 화이트</option>
+                </select>
+            </div>
+
+            <div>
+                <p> <strong>4.소스</strong></p>
+                <!-- 체크박스 -->
+                <input type="checkbox" name="option" value="1">핫칠리
+                <input type="checkbox" name="option" value="2">스위트칠리
+                <input type="checkbox" name="option" value="3">랜치
+                <input type="checkbox" name="option" value="4">홀스래디쉬
+                <input type="checkbox" name="option" value="5">스위트 어니언
+                
+            </div>
+            <div>
+                <br>
+                <input type="submit" value="보내기">
+            </div>
+
+    </form>
+
+    ID:<input name="user" type="text" placeholder="user"><br>
+PWD:<input name="password" type="text" placeholder= ****>
+<input type="submit" value="로그인">
+
+
+
 </body>
 </html>
