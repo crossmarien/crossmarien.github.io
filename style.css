@@ -27,6 +27,9 @@ div a{
     background-color: steelblue;
 }
 
+body .box{
+    background-color:  aqua;
+}
 .box {
     background-color: violet
 }
@@ -36,3 +39,9 @@ div a{
 
 .disabled{}
 
+/* bad example */
+body div#exec-bio.bio-box{
+    color:green;
+}
+
+#flick0 > li.item3 > div.obj_off.tab4 > a > span.mask
